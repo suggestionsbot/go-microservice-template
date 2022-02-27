@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+  voting:
+    container_name: microservice
+    image: ghcr.io/suggestionsbot/go-microservice-template:latest
+    env_file:
+      - .env # check .env.example for details
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      - microservice
+
+networks:
+  microservice:
+    internal: true
