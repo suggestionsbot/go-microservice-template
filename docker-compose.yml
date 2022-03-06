@@ -1,7 +1,7 @@
 version: "3.3"
 
 services:
-  voting:
+  microservice:
     container_name: microservice
     image: ghcr.io/suggestionsbot/go-microservice-template:latest
     env_file:
