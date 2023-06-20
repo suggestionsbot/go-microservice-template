@@ -6,7 +6,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.27.0
 	github.com/gofiber/keyauth/v2 v2.1.17
 	github.com/joho/godotenv v1.4.0
-	github.com/pelletier/go-toml v1.9.4
+	github.com/pelletier/go-toml v1.9.5
 )
 
 require (
